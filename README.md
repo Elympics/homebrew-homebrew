@@ -7,5 +7,5 @@ brew tap elympics/homebrew
 # Download tools
 
 ```sh
-brew install elympics/homebrew/elympics-cli
+brew install elympics-cli
 ```
