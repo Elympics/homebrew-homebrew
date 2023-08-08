@@ -1,8 +1,7 @@
 class ElympicsCli < Formula
     desc "This package contains command line interface for interacting with Elympics."
     homepage "https://elympics.cc"
-
-    version = "v0.0.4-beta"
+    version "v0.0.4-beta"
 
     if OS.mac?
         if Hardware::CPU.intel?
