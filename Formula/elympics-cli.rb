@@ -1,10 +1,10 @@
 class ElympicsCli < Formula
     desc "This package contains command line interface for interacting with Elympics."
     homepage "https://elympics.cc"
-    version "v0.0.7"
-    osx_x64_sha = "753738c7c2437b6d3976863f19f87f099468672b2f42b176b4a3b55a131e4faf"
-    osx_arm64_sha = "4cbf61bdbee95b4ee739dbc61268946a84a89cf73a18ef3ed5ecb15055010b7c"
-    linux_sha = "0fe26e7255cf89ff26c901c0b559d2b2e815325a3a117f03f6a0c97032ad7d83"
+    version "v0.0.8"
+    osx_x64_sha = "ab0defc4e28ab849ff6a1c2fcbfba5a1c3f140077d778aee2223a2030db2d59f"
+    osx_arm64_sha = "781849169da7f3e658b8593830cedfea21fad36605e4589e0e55351febf2ce18"
+    linux_sha = "c8ec33ea9efd1cf220a52e4d4fb88c228ede63c9021c227b11fc65c321fe9598"
 
     if OS.mac?
         if Hardware::CPU.intel?
